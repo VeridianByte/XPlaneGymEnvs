@@ -27,7 +27,7 @@ def make_env(env_id, rank=0):
     Helper function to create environment
     """
     def _init():
-        env = gym.make(env_id, render_mode=None)
+        env = gym.make(env_id, continuous_actions=False)
         env = Monitor(env)
         return env
     return _init
