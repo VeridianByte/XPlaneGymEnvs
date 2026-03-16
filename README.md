@@ -74,7 +74,7 @@ env = gym.make(
     random_desired_state=True,     # Whether to use random target attitude
     desired_pitch_range=5.0,       # Target pitch angle random range
     desired_roll_range=10.0,       # Target roll angle random range
-    action_dim=2                   # Continuous action space dimension
+    continuous_actions=True
 )
 ```
 
