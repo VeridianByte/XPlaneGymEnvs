@@ -24,7 +24,7 @@ def make_env(env_id, rank, seed=0):
     """
     def _init():
         # Use the new Gymnasium API to set random seed
-        env = gym.make(env_id, continuous_actions=true)
+        env = gym.make(env_id, continuous_actions=True)
         env = Monitor(env)
         # Set random seed when creating environment, instead of calling env.seed()
         return env
