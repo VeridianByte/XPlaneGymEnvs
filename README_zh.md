@@ -72,7 +72,7 @@ env = gym.make(
     random_desired_state=True,     # 是否随机目标姿态
     desired_pitch_range=5.0,       # 目标俯仰角随机范围
     desired_roll_range=10.0,       # 目标横滚角随机范围
-    action_dim=2                   # 连续动作空间维度
+    continuous_actions=True
 )
 ```
 
