@@ -25,12 +25,6 @@ setup(
         "tensorboard>=2.19.0"
     ],
     
-    entry_points={
-        "console_scripts": [
-            "xplane-gym-test=XPlaneGym.utils.test_connection:main",
-            "xplane-gym-train=XPlaneGym.examples.train:main",
-        ],
-    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
